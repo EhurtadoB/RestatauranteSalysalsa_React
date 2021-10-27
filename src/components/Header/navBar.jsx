@@ -1,4 +1,5 @@
 import React from "react";
+import Rutas from "./Rutas";
 
 const header = () => {
   return (
@@ -10,20 +11,7 @@ const header = () => {
           </a>
           <span className="ver_menu">ver menu</span>
           <nav className="navegador">
-            <ul>
-              <li>
-                <a href="nosotros.html">Nosotros</a>
-              </li>
-              <li>
-                <a href="menu.html">El menu</a>
-              </li>
-              <li>
-                <a href="servicios.html">Servicios</a>
-              </li>
-              <li>
-                <a href="contacto.html">Contáctanos</a>
-              </li>
-            </ul>
+            <Rutas/>
           </nav>
         </div>
       </header>

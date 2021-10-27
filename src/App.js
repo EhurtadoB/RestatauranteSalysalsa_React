@@ -1,18 +1,19 @@
 import "./App.css";
-import NavBar from "./components/Header/navBar";
-import Pie from "./components/Footer/pie";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Layout from "./components/Layout";
+import Nosotros from "./views/Nosotros";
+
 function App() {
   return (
     <>
-      <NavBar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Pie />
+      <BrowserRouter>
+        <Layout>
+          <Switch>
+            <Route exact path="/Nosotros" component={Nosotros} />
+            {/* <Route exact path="/Servicios" component={Servicios} /> */}
+          </Switch>
+        </Layout>
+      </BrowserRouter>
     </>
   );
 }
