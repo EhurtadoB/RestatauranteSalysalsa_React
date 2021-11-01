@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "Imagen": "./assets/Img/budy.jpg",
+    "Name": "Buddy Valastro",
+    "Cargo": "Chef Pastelero"
+  },
+  {
+    "id": 2,
+    "Imagen": "../../assets/Img/trabajador2.jpg",
+    "Name": "Luke Hemmings",
+    "Cargo": "Cantante"
+  },
+  {
+    "id": 3,
+    "Imagen": "../../assets/Img/trabajador3.jpg",
+    "Name": "Chefcito",
+    "Cargo": "Chef estrella"
+  },
+  {
+    "id": 4,
+    "Imagen": "../../assets/Img/trabajadora4.jpg",
+    "Name": "Jennifer Rodríguez",
+    "Cargo": "Chef de temporada"
+  },
+  {
+    "id": 5,
+    "Imagen": "../../assets/Img/trabajadora5.jpg",
+    "Name": "Leo Espinosa",
+    "Cargo": "Chef pastelera"
+  },
+  {
+    "id": 6,
+    "Imagen": "../../assets/Img/salt bae.jpg",
+    "Name": "Nusret Gökçe",
+    "Cargo": "Administrador"
+  }
+]

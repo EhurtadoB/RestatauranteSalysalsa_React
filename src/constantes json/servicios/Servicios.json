@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "Imagen": "./assets/Img/celebracioncumple.jpg",
+      "titulo": "Celebración de cumpleaños",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius."
+    },
+    {
+      "id": 2,
+      "Imagen": "./assets/Img/Aniversarios.jpg",
+      "titulo": "Aniversarios",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius."
+    },
+    {
+      "id": 3,
+      "Imagen": "./assets/Img/fiesta infantiles.jpg",
+      "titulo": "Fiestas infantiles",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius."
+    },
+    {
+      "id": 4,
+      "Imagen": "./assets/Img/Declaraciones.jpg",
+      "titulo": "Declaraciones o propuestas",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius."
+    },
+    {
+      "id": 5,
+      "Imagen": "./assets/Img/despedida.jpg",
+      "titulo": "Despedidas",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius."
+    },
+    {
+      "id": 6,
+      "Imagen": "./assets/Img/cena amigos.jpg",
+      "titulo": "Cena con amigos",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius."
+    }
+  ]

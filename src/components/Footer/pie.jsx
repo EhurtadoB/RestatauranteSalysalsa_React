@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../assets/Img/logo.png";
 
 const pie = () => {
   return (
@@ -7,7 +6,7 @@ const pie = () => {
       <footer>
         <div className="contenedor">
           <div className="item_footer" id="imagen">
-            <img src={Logo} alt="logo" />
+            <img src="./assets/Img/logo.png" alt="logo" />
             {/*-<div class="img"></div>*/}
           </div>
           <div className="item_footer" id="informacion">

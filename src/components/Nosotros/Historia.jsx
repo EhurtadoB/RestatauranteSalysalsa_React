@@ -1,5 +1,5 @@
 import React from "react";
-import ImagenHistoria from "../../assets/Img/historia.png";
+
 const Historia = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const Historia = () => {
         <div className="contenedor centro" style={{ marginTop: 100 }}>
           <div className="nuestra-historia">
             <div className="imagen-historia">
-              <img src={ImagenHistoria} alt="foto-historia" />
+              <img src="./assets/Img/historia.png" alt="foto-historia" />
             </div>
             <div className="texto-historia">
               <h1>
