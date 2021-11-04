@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "Imagen": "./assets/Img/menu1.png",
+      "titulo": "Costillas",
+      "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
+      "precio": "$15000"
+    },
+    {
+      "id": 2,
+      "Imagen": "./assets/Img/menu2.png",
+      "titulo": "Crema",
+      "ingredientes": "Ingredientes:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
+      "precio": "$25000"
+    },
+    {
+      "id": 3,
+      "Imagen": "./assets/Img/menu3.png",
+      "titulo": "Bollos",
+      "ingredientes": "Ingredientes:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
+      "precio": "$18000"
+    },
+    {
+      "id": 4,
+      "Imagen": "./assets/Img/menu4.png",
+      "titulo": "Pulpo",
+      "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
+      "precio": "$40000"
+    },
+    {
+      "id": 5,
+      "Imagen": "./assets/Img/menu5.png",
+      "titulo": "Langostinos",
+      "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
+      "precio": "$18000"
+    },
+    {
+      "id": 6,
+      "Imagen": "./assets/Img/menu1.png",
+      "titulo": "Costillas V2",
+      "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
+      "precio": "$15000"
+    }
+  ]

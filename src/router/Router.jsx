@@ -1,8 +1,10 @@
 import React from "react";
+//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
 import Nosotros from "../views/Nosotros";
 import Servicios from "../views/Servicios";
+import Menu from "../views/Platos";
 
 const routes = [
   // { AQUI VA EL COMPONENTE DE INICIO
@@ -16,6 +18,10 @@ const routes = [
   {
     path: "/nosotros",
     component: Nosotros,
+  },
+  {
+    path: "/menu",
+    component: Menu,
   },
   {
     path: "/servicios",

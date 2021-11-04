@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap";
-import "bootstrap/dist/js/bootstrap.bundle";
-import "bootstrap/dist/js/bootstrap.esm";
 import "./index.css";
 import App from "./App";
+/*import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/js/bootstrap.esm";*/
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
+
 
 ReactDOM.render(
   <React.StrictMode>
