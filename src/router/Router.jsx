@@ -1,18 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
+import Inicio from "../views/Inicio";
 import Nosotros from "../views/Nosotros";
+import Reservas from "../views/Reservas";
 import Servicios from "../views/Servicios";
 
 const routes = [
-  // { AQUI VA EL COMPONENTE DE INICIO
-  //     path: "/",
-  //     component:  -------
-  // }
-  // { AQUI VA EL COMPONENTE DE INICIO
-  //     path: "/inicio",
-  //     component:  -------
-  // }
+  
+  { 
+      path: "/inicio",
+      component:  Inicio
+  },
   {
     path: "/nosotros",
     component: Nosotros,
@@ -20,6 +19,10 @@ const routes = [
   {
     path: "/servicios",
     component: Servicios,
+  },
+  {
+    path: "/Reservas",
+    component: Reservas,
   },
 ];
 const router = () => {
