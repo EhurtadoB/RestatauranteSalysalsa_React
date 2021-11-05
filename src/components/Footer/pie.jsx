@@ -17,10 +17,10 @@ const pie = () => {
                     <a href="mapa.html">mapa del sitio</a>
                   </li>
                   <li>
-                    <a href="contacto.html">contactenos</a>
+                    <a href="/Reservas">contactenos</a>
                   </li>
                   <li>
-                    <a href="reservas.html">reservas</a>
+                    <a href="/Reservas">reservas</a>
                   </li>
                 </ul>
               </div>
