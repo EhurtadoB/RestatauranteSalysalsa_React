@@ -7,12 +7,13 @@ import Nosotros from "../views/Nosotros";
 import Reservas from "../views/Reservas";
 import Servicios from "../views/Servicios";
 import Menu from "../views/Platos";
+import component_login from "../components/Login_Registro/component_login";
+import component_registro from "../components/Login_Registro/component_registro";
 
 const routes = [
-  
-  { 
-      path: "/inicio",
-      component:  Inicio
+  {
+    path: "/inicio",
+    component: Inicio,
   },
   {
     path: "/nosotros",
@@ -29,6 +30,14 @@ const routes = [
   {
     path: "/Reservas",
     component: Reservas,
+  },
+  {
+    path: "/Login",
+    component: component_login,
+  },
+  {
+    path: "/Registro",
+    component: component_registro,
   },
 ];
 const router = () => {

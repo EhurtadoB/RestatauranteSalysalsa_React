@@ -1,23 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 const header = () => {
   return (
     <>
-      {/* <header style={{ zIndex: 1 }}>
-        <div className="contenedor logo-nav-container">
-          <a href="/inicio" className="logo">
-            sal&amp;salsa
-          </a>
-          <span className="ver_menu">ver menu</span>
-          <nav className="navegador">
-            <ul>
-              <li>
-                <a href="#!">INICIO</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header> */}
       <header style={{ zIndex: 1 }}>
         <nav className="navbar navbar-expand-lg navegador">
           <div className="container-fluid">
@@ -63,7 +50,17 @@ const header = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/Reservas">
-                    CONTACTENOS
+                    RESERVAS
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/Login">
+                    <FontAwesomeIcon className="fas" icon={faSignInAlt} />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/Registro">
+                    <FontAwesomeIcon className="fas" icon={faUserPlus} />
                   </a>
                 </li>
               </ul>

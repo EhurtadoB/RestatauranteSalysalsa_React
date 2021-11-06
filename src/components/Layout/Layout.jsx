@@ -8,6 +8,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <NavBar />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       {children}
       <Pie />
     </>
