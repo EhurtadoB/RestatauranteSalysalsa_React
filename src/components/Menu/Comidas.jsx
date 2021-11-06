@@ -1,5 +1,7 @@
+import { Button } from "bootstrap";
 import React from "react";
 import platos from "../../constantes json/menu/platos.json";
+import { contador } from "./menu";
 
 const Comidas = () => {
   return (
@@ -24,7 +26,27 @@ const Comidas = () => {
                   <h5 className="card-title titulo-plato">
                     {plato.precio}
                   </h5>
-                  <p className="card-text texto-platos">{plato.ingredientes}</p>
+                  <p>{plato.ingredientes}</p>
+                  <button
+                    type="button"
+                    id={plato.idminus}
+                  >
+                    - 
+                  </button>
+                  <input type="number" id={plato.idnum} placeholder="0"/>
+                  <button
+                    type="button"
+                    id={plato.idplus}
+                  >
+                    +
+                  </button>
+                  <br></br><br></br>
+                  <button
+                    type="button"
+                    id={plato.idplus}
+                  >
+                    Agregar al carrito
+                  </button>
                 </div>
               </div>
             );

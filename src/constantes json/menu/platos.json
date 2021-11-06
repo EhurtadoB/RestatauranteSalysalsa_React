@@ -4,41 +4,65 @@
       "Imagen": "./assets/Img/menu1.png",
       "titulo": "Costillas",
       "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
-      "precio": "$15000"
+      "precio": "$15000",
+      "idminus": "minusFirstDish" ,
+      "idnum": "counterFirstDish",
+      "idplus": "plusFirstDish" ,
+      "idsubmit": "submitFirstDish"     
     },
     {
       "id": 2,
       "Imagen": "./assets/Img/menu2.png",
       "titulo": "Crema",
       "ingredientes": "Ingredientes:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
-      "precio": "$25000"
+      "precio": "$25000",
+      "idminus": "minusSecondDish" ,
+      "idnum": "counterSecondDish",
+      "idplus": "plusSecondDish" ,
+      "idsubmit": "submitSecondDish"  
     },
     {
       "id": 3,
       "Imagen": "./assets/Img/menu3.png",
       "titulo": "Bollos",
       "ingredientes": "Ingredientes:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
-      "precio": "$18000"
+      "precio": "$18000",
+      "idminus": "minusThirdDish" ,
+      "idnum": "counterThirdDish",
+      "idplus": "plusThirdDish",
+      "idsubmit": "submitThirdDish"   
     },
     {
       "id": 4,
       "Imagen": "./assets/Img/menu4.png",
       "titulo": "Pulpo",
       "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
-      "precio": "$40000"
+      "precio": "$40000",
+      "idminus": "minusFourthDish" ,
+      "idnum": "counterFourthDish",
+      "idplus": "plusFourthDish" ,
+      "idsubmit": "submitFourthDish"  
     },
     {
       "id": 5,
       "Imagen": "./assets/Img/menu5.png",
       "titulo": "Langostinos",
       "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
-      "precio": "$18000"
+      "precio": "$18000",
+      "idminus": "minusFifthDish" ,
+      "idnum": "counterFifthDish",
+      "idplus": "plusFifthDish" ,
+      "idsubmit": "submitFifthDish"  
     },
     {
       "id": 6,
       "Imagen": "./assets/Img/menu1.png",
       "titulo": "Costillas V2",
       "ingredientes": "Ingredientes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deserunt veritatis, accusantium nesciunt explicabo, quod incidunt ad minima eum blanditiis esse impedit aspernatur reiciendis dignissimos possimus atque officia dolor. Eius.",
-      "precio": "$15000"
+      "precio": "$15000",
+      "idminus": "minusSixthDish" ,
+      "idnum": "counterSixthDish",
+      "idplus": "plusSixthDish" ,
+      "idsubmit": "submitSixthDish"  
     }
   ]
