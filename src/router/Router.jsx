@@ -11,10 +11,7 @@ import component_login from "../components/Login_Registro/component_login";
 import component_registro from "../components/Login_Registro/component_registro";
 
 const routes = [
-  {
-    path: "/inicio",
-    component: Inicio,
-  },
+
   {
     path: "/nosotros",
     component: Nosotros,
@@ -38,6 +35,14 @@ const routes = [
   {
     path: "/Registro",
     component: component_registro,
+  },
+  {
+    path: "/",
+    component: Inicio,
+  },
+  {
+    path: "/inicio",
+    component: Inicio,
   },
 ];
 const router = () => {
