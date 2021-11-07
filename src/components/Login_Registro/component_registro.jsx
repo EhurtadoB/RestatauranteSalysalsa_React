@@ -3,8 +3,17 @@ import React from "react";
 class Registro extends React.Component {
     render() {
         return(
-            <React.Fragment>    
+            <React.Fragment>  
+                 <div class="row">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam vel qui libero minus praesentium ipsa at voluptas, esse rem aliquam sunt deleniti? Quas corrupti corporis quam repellat nostrum enim laudantium.</p>
+                </div>  
                 <div class="row">
+                    <div class="col-2"></div>
                     <table class="col s8 offset-s2">
                         <tr>
                             <td colSpan="8" class="center-align"><h3>REGISTRO Sal&Salsa</h3></td>
@@ -47,9 +56,19 @@ class Registro extends React.Component {
                         </tr>
                         <tr>
                             <td colSpan="2"><label><input type="checkbox" required/><span>Acepto términos y condiciones</span></label></td>
-                            <td colSpan="6" class="center-align"><button class="btn waves-effect waves-light red darken-4" type="submit" name="action">Registrar</button></td>  
+                            <td colSpan="6" class="center-align"><button class="btn btn-primary" type="submit" name="action">Registrar</button></td>  
                         </tr>
                     </table> 
+                </div>
+                <div class="row">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam vel qui libero minus praesentium ipsa at voluptas, esse rem aliquam sunt deleniti? Quas corrupti corporis quam repellat nostrum enim laudantium.</p>
                 </div>
             </React.Fragment>
         );
