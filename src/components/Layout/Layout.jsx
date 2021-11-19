@@ -7,11 +7,13 @@ import Pie from "../Footer/pie.jsx";
 const Layout = ({ children }) => {
   return (
     <>
-      <NavBar />
-      {children}
-      <Pie />
+      <div className="Wrapper">
+        <NavBar />
+        {children}
+        <Pie />
+      </div>
     </>
   );
 };
 
-export default Layout;
+export default Layout; 

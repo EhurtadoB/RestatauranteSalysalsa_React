@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom'
 
 const header = () => {
   return (
@@ -9,13 +10,13 @@ const header = () => {
         <nav className="navbar navbar-expand-lg navegador">
           <div className="container-fluid">
             <div className="contenedor logo-nav-container">
-              <a
+              <Link
                 className="navbar-brand logo"
-                href="/inicio"
+                to="/inicio"
                 style={{ paddingLeft: "50px" }}
               >
                 sal&amp;salsa
-              </a>
+              </Link>
             </div>
             <button
               className="navbar-toggler"
@@ -34,34 +35,34 @@ const header = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" href="/nosotros">
+                  <Link className="nav-link" to="/nosotros">
                     NOSOTROS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/menu">
+                  <Link className="nav-link" to="/menu">
                     MENU
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/servicios">
+                  <Link className="nav-link" to="/servicios">
                     SERVICIOS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/Reservas">
+                  <Link className="nav-link" to="/Reservas">
                     RESERVAS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/Login">
+                  <Link className="nav-link" to="/Login">
                     <FontAwesomeIcon className="fas" icon={faSignInAlt} />
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/Registro">
+                  <Link className="nav-link" to="/Registro">
                     <FontAwesomeIcon className="fas" icon={faUserPlus} />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const pie = () => {
   return (
@@ -14,13 +15,13 @@ const pie = () => {
               <div className="navegador_inf">
                 <ul>
                   <li>
-                    <a href="mapa.html">mapa del sitio</a>
+                    <Link to="mapa.html">mapa del sitio</Link>
                   </li>
                   <li>
-                    <a href="/Reservas">contactenos</a>
+                    <Link to="/Reservas">contactenos</Link>
                   </li>
                   <li>
-                    <a href="/Reservas">reservas</a>
+                    <Link to="/Reservas">reservas</Link>
                   </li>
                 </ul>
               </div>
