@@ -7,7 +7,7 @@ const Historia = () => {
         <div className="contenedor centro" style={{ marginTop: 100 }}>
           <div className="nuestra-historia">
             <div className="imagen-historia">
-              <img src="./assets/Img/historia.png" alt="foto-historia" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Fhistoria.png?alt=media&token=9dc093ce-65fb-42bb-af0d-d025e823e196" alt="foto-historia" />
             </div>
             <div className="texto-historia">
               <h1>

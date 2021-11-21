@@ -41,7 +41,7 @@ const Testimonios = () => {
                 <div className="d-flex">
                   <div className="flex-shrink-0">
                     <img
-                      src="./assets/Img/cliente1.jpg"
+                      src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Fcliente1.jpg?alt=media&token=732747d7-ad08-4ce9-b504-3d45dcc5da51"
                       className="rounded-circle mb-4 mb-lg-0 shadow-2"
                       alt="woman avatar"
                       width={130}
@@ -77,7 +77,7 @@ const Testimonios = () => {
                 <div className="d-flex">
                   <div className="flex-shrink-0">
                     <img
-                      src="./assets/Img/cliente2.jpg"
+                      src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Fcliente2.jpg?alt=media&token=7db14c94-4942-4155-a906-d53239405aa3"
                       className="rounded-circle mb-4 mb-lg-0 shadow-2"
                       alt="woman avatar"
                       width={130}
@@ -113,7 +113,7 @@ const Testimonios = () => {
                 <div className="d-flex">
                   <div className="flex-shrink-0">
                     <img
-                      src="./assets/Img/cliente3.jpg"
+                      src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Fcliente3.jpg?alt=media&token=d907c042-5589-4fc4-b386-7b161f2b6642"
                       className="rounded-circle mb-4 mb-lg-0 shadow-2"
                       alt="woman avatar"
                       width={130}

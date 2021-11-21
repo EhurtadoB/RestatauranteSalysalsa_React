@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "Imagen": "./assets/Img/budy.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Fbudy.jpg?alt=media&token=ba170382-c858-4cab-b980-fee3dd45daea",
     "Name": "Buddy Valastro",
     "Cargo": "Chef Pastelero"
   },
   {
     "id": 2,
-    "Imagen": "../../assets/Img/trabajador2.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Ftrabajador2.jpg?alt=media&token=8d9e4639-8e3a-463e-9335-c75ca185681d",
     "Name": "Luke Hemmings",
     "Cargo": "Cantante"
   },
   {
     "id": 3,
-    "Imagen": "../../assets/Img/trabajador3.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Ftrabajador3.jpg?alt=media&token=2a21d9df-cb88-45ae-8d30-4ed116cfc6c8",
     "Name": "Chefcito",
     "Cargo": "Chef estrella"
   },
   {
     "id": 4,
-    "Imagen": "../../assets/Img/trabajadora4.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Ftrabajadora4.jpg?alt=media&token=4275d520-e754-4e8d-8a39-0169f8cb0f4d",
     "Name": "Jennifer Rodríguez",
     "Cargo": "Chef de temporada"
   },
   {
     "id": 5,
-    "Imagen": "../../assets/Img/trabajadora5.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Ftrabajadora5.jpg?alt=media&token=99f58e48-d69f-43af-bb5b-f1a211b47e00",
     "Name": "Leo Espinosa",
     "Cargo": "Chef pastelera"
   },
   {
     "id": 6,
-    "Imagen": "../../assets/Img/salt bae.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2Fnosotros%2Fsalt%20bae.jpg?alt=media&token=d51f745c-769e-467a-86cb-b609d3bd556f",
     "Name": "Nusret Gökçe",
     "Cargo": "Administrador"
   }

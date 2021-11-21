@@ -12,7 +12,7 @@ const ImgCarrusel = () => {
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval={10000}>
               <img
-                src="../assets/Img/carusel1.png"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2FInicio%2Fcarusel1.png?alt=media&token=cdfeb7e4-483e-4f7e-a756-cf41b3aad0cc"
                 className="d-block w-100"
                 alt="..."
               />
@@ -22,14 +22,14 @@ const ImgCarrusel = () => {
             </div>
             <div className="carousel-item" data-bs-interval={2000}>
               <img
-                src="../assets/Img/carusel2.png"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2FInicio%2Fcarusel2.png?alt=media&token=5999e9bf-4f9d-4a8c-8191-b66195346cde"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="../assets/Img/carusel3.png"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-50efc.appspot.com/o/Restaurante%2FInicio%2Fcarusel3.png?alt=media&token=1651ada6-e302-49d4-97b5-a1f8176bdd3d"
                 className="d-block w-100"
                 alt="..."
               />

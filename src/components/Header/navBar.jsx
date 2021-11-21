@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const header = () => {
   return (
@@ -63,6 +63,37 @@ const header = () => {
                   <Link className="nav-link" to="/Registro">
                     <FontAwesomeIcon className="fas" icon={faUserPlus} />
                   </Link>
+                </li>
+                <li className="nav-item dropdown my-auto">
+                  <button
+                    className="dropdown-toggle"
+                    id="navbarDarkDropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    type="button"
+                  >
+                    Administrar
+                  </button>
+                  <ul
+                    className="dropdown-menu dropdown-menu-dark dropdown-menu-end"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
