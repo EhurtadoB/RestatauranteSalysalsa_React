@@ -8,6 +8,7 @@ import Servicios from "./views/Servicios";
 import Menu from "./views/Platos";
 import component_login from "./components/Login_Registro/component_login";
 import component_registro from "./components/Login_Registro/component_registro";
+import Contactenos from "./views/Contactenos";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/Login" component={component_login} />
             <Route exact path="/Registro" component={component_registro} />
             <Route exact path="/inicio" component={Inicio} />
+            <Route exact path="/Contactenos" component={Contactenos} />
           </Switch>
         </Layout>
       </BrowserRouter>

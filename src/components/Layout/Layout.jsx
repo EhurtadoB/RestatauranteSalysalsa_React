@@ -3,14 +3,17 @@ import React from "react";
 import NavBar from "../Header/navBar.jsx";
 //import Pie from "../Footer/Pie.jsx";
 import Pie from "../Footer/pie.jsx";
+import NosotrosProvider from "../../contexts/Nosotros/NosotrosProvider";
 
 const Layout = ({ children }) => {
   return (
     <>
       <div className="Wrapper">
-        <NavBar />
-        {children}
-        <Pie />
+        <NosotrosProvider>
+          <NavBar />
+          {children}
+          <Pie />
+        </NosotrosProvider>
       </div>
     </>
   );

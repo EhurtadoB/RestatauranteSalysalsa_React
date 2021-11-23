@@ -18,7 +18,7 @@ const pie = () => {
                     <Link to="mapa.html">mapa del sitio</Link>
                   </li>
                   <li>
-                    <Link to="/Reservas">contactenos</Link>
+                    <Link to="/Contactenos">contactenos</Link>
                   </li>
                   <li>
                     <Link to="/Reservas">reservas</Link>

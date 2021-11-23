@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import ModalHistoria from "../Modal/ModalHistoria";
 
 const header = () => {
   return (
@@ -66,7 +67,7 @@ const header = () => {
                 </li>
                 <li className="nav-item dropdown my-auto">
                   <button
-                    className="dropdown-toggle"
+                    className="dropdown-toggle btn btn-danger"
                     id="navbarDarkDropdownMenuLink"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -79,19 +80,19 @@ const header = () => {
                     aria-labelledby="navbarDarkDropdownMenuLink"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
+                      <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalHistoria">
+                        Editar historia
+                      </button>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalEmpleado">
                         Another action
-                      </a>
+                      </button>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalTestimonio">
                         Something else here
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </li>
@@ -100,6 +101,8 @@ const header = () => {
           </div>
         </nav>
       </header>
+
+      <ModalHistoria/>
     </>
   );
 };
