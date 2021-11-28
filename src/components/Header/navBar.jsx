@@ -80,9 +80,9 @@ const header = () => {
                     aria-labelledby="navbarDarkDropdownMenuLink"
                   >
                     <li>
-                    <Link className="dropdown-item" to="/nosotros/ver">
-                    Editar historia
-                    </Link>
+                      <Link className="dropdown-item" to="/nosotros/ver">
+                        Editar historia
+                      </Link>
                       {/* <button
                         type="button"
                         className="dropdown-item"
@@ -110,6 +110,11 @@ const header = () => {
                       >
                         Comentarios
                       </button>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/servicios/ver">
+                        Editar Servicios
+                      </Link>
                     </li>
                   </ul>
                 </li>

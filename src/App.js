@@ -11,6 +11,10 @@ import component_registro from "./components/Login_Registro/component_registro";
 import Contactenos from "./views/Contactenos";
 import EditarHistoria from "./components/Administrador/Nosotros/EditarHistoria";
 import VerHistoria from "./components/Administrador/Nosotros/VerHistoria";
+import VerServicios from './components/Administrador/Servicios/VerServicios';
+import EditarServicio from './components/Administrador/Servicios/EditarServicio';
+import AgregarServicio from './components/Administrador/Servicios/AgregarServicio';
+
 function App() {
   return (
     <>
@@ -31,6 +35,15 @@ function App() {
             </Route>
             <Route path="/nosotros/ver">
               <VerHistoria></VerHistoria>
+            </Route>
+            <Route path="/servicios/ver">
+              <VerServicios></VerServicios>
+            </Route>
+            <Route path="/servicios/editar/:id">
+              <EditarServicio></EditarServicio>
+            </Route>
+            <Route path="/servicios/agregar">
+              <AgregarServicio></AgregarServicio>
             </Route>
           </Switch>
         </Layout>

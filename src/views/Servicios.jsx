@@ -2,6 +2,7 @@ import React from "react";
 import Informacion from "../components/Servicios/Informacion";
 import Tarjetas from "../components/Servicios/Tarjetas";
 import "../components/Servicios/Styles/estilos-servicios.css"
+
 const Servicios = () => {
   return (
     <>
