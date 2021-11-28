@@ -6,6 +6,7 @@ const Contactenos = () => {
       <div className="container contenedor centro" style={{ marginTop: 110 }}>
         <Contacto />
       </div>
+      <br/>
     </>
   );
 };

@@ -13,6 +13,7 @@ const Contacto = () => {
 			'Estamos procesando tu solicitud, en unos momentos recibirás confirmación a tu correo electrónico',
 			'success'
 			)
+			
 		}
 	}
 
@@ -89,8 +90,11 @@ const Contacto = () => {
 									{errors.terminos && <span className="text-danger ms-2">(*) <small>Campo obligatorio</small></span>}
 		                        </div>
 								
-		                        <div className="mb-4 text-center">
-		                            <button type="submit" className="btn boton-contacto mb-3">Enviar Solicitud</button>
+		                        <div className="btn btn-primary">
+							
+								<button class="btn btn-primary" type="submit">Enviar Solicitud</button>
+
+		                           
 		                        </div>
 		                    </form>
 		                </div>

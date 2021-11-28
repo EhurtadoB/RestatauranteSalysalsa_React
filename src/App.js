@@ -9,6 +9,8 @@ import Menu from "./views/Platos";
 import component_login from "./components/Login_Registro/component_login";
 import component_registro from "./components/Login_Registro/component_registro";
 import Contactenos from "./views/Contactenos";
+import EditarHistoria from "./components/Administrador/Nosotros/EditarHistoria";
+import VerHistoria from "./components/Administrador/Nosotros/VerHistoria";
 function App() {
   return (
     <>
@@ -24,6 +26,12 @@ function App() {
             <Route exact path="/Registro" component={component_registro} />
             <Route exact path="/inicio" component={Inicio} />
             <Route exact path="/Contactenos" component={Contactenos} />
+            <Route path="/nosotros/editar/:id">
+              <EditarHistoria></EditarHistoria>
+            </Route>
+            <Route path="/nosotros/ver">
+              <VerHistoria></VerHistoria>
+            </Route>
           </Switch>
         </Layout>
       </BrowserRouter>

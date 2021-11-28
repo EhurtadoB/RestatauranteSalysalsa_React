@@ -3,20 +3,17 @@ import React from "react";
 import NavBar from "../Header/navBar.jsx";
 //import Pie from "../Footer/Pie.jsx";
 import Pie from "../Footer/pie.jsx";
-import NosotrosProvider from "../../contexts/Nosotros/NosotrosProvider";
 
 const Layout = ({ children }) => {
   return (
     <>
       <div className="Wrapper">
-        <NosotrosProvider>
-          <NavBar />
-          {children}
-          <Pie />
-        </NosotrosProvider>
+        <NavBar />
+        {children}
+        <Pie />
       </div>
     </>
   );
 };
 
-export default Layout; 
+export default Layout;

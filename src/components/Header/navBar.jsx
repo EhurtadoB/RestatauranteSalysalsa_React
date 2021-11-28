@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import ModalHistoria from "../Modal/ModalHistoria";
+import ModalComentarios from "../Modal/ModalComentarios";
 
 const header = () => {
   return (
@@ -80,18 +80,35 @@ const header = () => {
                     aria-labelledby="navbarDarkDropdownMenuLink"
                   >
                     <li>
-                      <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalHistoria">
+                    <Link className="dropdown-item" to="/nosotros/ver">
+                    Editar historia
+                    </Link>
+                      {/* <button
+                        type="button"
+                        className="dropdown-item"
+                        
+                      >
                         Editar historia
-                      </button>
+                      </button> */}
                     </li>
                     <li>
-                      <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalEmpleado">
+                      <button
+                        type="button"
+                        className="dropdown-item"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalEmpleado"
+                      >
                         Another action
                       </button>
                     </li>
                     <li>
-                      <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalTestimonio">
-                        Something else here
+                      <button
+                        type="button"
+                        className="dropdown-item"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalComentarios"
+                      >
+                        Comentarios
                       </button>
                     </li>
                   </ul>
@@ -101,8 +118,7 @@ const header = () => {
           </div>
         </nav>
       </header>
-
-      <ModalHistoria/>
+      <ModalComentarios />
     </>
   );
 };
