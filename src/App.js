@@ -14,6 +14,9 @@ import VerHistoria from "./components/Administrador/Nosotros/VerHistoria";
 import VerServicios from './components/Administrador/Servicios/VerServicios';
 import EditarServicio from './components/Administrador/Servicios/EditarServicio';
 import AgregarServicio from './components/Administrador/Servicios/AgregarServicio';
+import VerEmpleados from "./components/Administrador/Nosotros/Empleados/VerEmpleados";
+import AgregarEmpleado from "./components/Administrador/Nosotros/Empleados/AgregarEmpleado";
+import EditarEmpleado from "./components/Administrador/Nosotros/Empleados/EditarEmpleado";
 
 function App() {
   return (
@@ -44,6 +47,15 @@ function App() {
             </Route>
             <Route path="/servicios/agregar">
               <AgregarServicio></AgregarServicio>
+            </Route>
+            <Route path="/empleados/ver">
+              <VerEmpleados></VerEmpleados>
+            </Route>
+            <Route path="/empleados/agregar">
+              <AgregarEmpleado></AgregarEmpleado>
+            </Route>
+            <Route path="/empleados/editar/:id">
+              <EditarEmpleado></EditarEmpleado>
             </Route>
           </Switch>
         </Layout>

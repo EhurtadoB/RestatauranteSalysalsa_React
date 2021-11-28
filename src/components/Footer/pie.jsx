@@ -7,7 +7,7 @@ const pie = () => {
       <footer>
         <div className="contenedor">
           <div className="item_footer" id="imagen">
-            <img src="./assets/Img/logo.png" alt="logo" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Flogo%402x.png?alt=media&token=85aada55-01e5-48df-a634-e7b274f696df" alt="logo" />
             {/*-<div class="img"></div>*/}
           </div>
           <div className="item_footer" id="informacion">

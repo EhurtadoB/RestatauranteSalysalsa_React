@@ -92,6 +92,11 @@ const header = () => {
                       </button> */}
                     </li>
                     <li>
+                      <Link className="dropdown-item" to="/empleados/ver">
+                        Editar Empleados
+                      </Link>
+                    </li>
+                    <li>
                       <button
                         type="button"
                         className="dropdown-item"
