@@ -23,7 +23,7 @@ class VerHistoria extends React.Component {
         <div className="column">
           <h1 className="is-size-3">Información del restaurante</h1>
         </div>
-        <div className="table-container">
+        <div className="table-container border rounded">
           <table className="table is-fullwidth is-bordered">
             <thead>
               <tr>

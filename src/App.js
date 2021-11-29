@@ -13,6 +13,16 @@ import EditarHistoria from "./components/Administrador/Nosotros/EditarHistoria";
 import VerHistoria from "./components/Administrador/Nosotros/VerHistoria";
 import VerSolicitudes from "./components/Administrador/VerSolicitudes";
 import VerComentarios from "./components/Administrador/VerComentarios";
+import VerServicios from "./components/Administrador/Servicios/VerServicios";
+import EditarServicio from "./components/Administrador/Servicios/EditarServicio";
+import AgregarServicio from "./components/Administrador/Servicios/AgregarServicio";
+import VerEmpleados from "./components/Administrador/Nosotros/Empleados/VerEmpleados";
+import AgregarEmpleado from "./components/Administrador/Nosotros/Empleados/AgregarEmpleado";
+import EditarEmpleado from "./components/Administrador/Nosotros/Empleados/EditarEmpleado";
+import VerMenu from "./components/Administrador/Menu/VerMenu";
+import AgregarPlato from "./components/Administrador/Menu/AgregarPlato";
+import EditarPlato from "./components/Administrador/Menu/EditarPlato";
+
 function App() {
   return (
     <>
@@ -34,11 +44,39 @@ function App() {
             <Route path="/nosotros/ver">
               <VerHistoria></VerHistoria>
             </Route>
+
             <Route path="/verSolicitudes">
               <VerSolicitudes></VerSolicitudes>
             </Route>
             <Route path="/verComentarios">
               <VerComentarios></VerComentarios>
+            </Route>
+            <Route path="/servicios/ver">
+              <VerServicios></VerServicios>
+            </Route>
+            <Route path="/servicios/editar/:id">
+              <EditarServicio></EditarServicio>
+            </Route>
+            <Route path="/servicios/agregar">
+              <AgregarServicio></AgregarServicio>
+            </Route>
+            <Route path="/empleados/ver">
+              <VerEmpleados></VerEmpleados>
+            </Route>
+            <Route path="/empleados/agregar">
+              <AgregarEmpleado></AgregarEmpleado>
+            </Route>
+            <Route path="/empleados/editar/:id">
+              <EditarEmpleado></EditarEmpleado>
+            </Route>
+            <Route path="/platos/ver">
+              <VerMenu></VerMenu>
+            </Route>
+            <Route path="/platos/agregar">
+              <AgregarPlato></AgregarPlato>
+            </Route>
+            <Route path="/platos/editar/:id">
+              <EditarPlato></EditarPlato>
             </Route>
           </Switch>
         </Layout>

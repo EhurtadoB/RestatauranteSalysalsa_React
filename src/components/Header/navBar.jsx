@@ -85,24 +85,14 @@ const header = () => {
                       </Link>
                     </li>
                     <li>
-                      <button
-                        type="button"
-                        className="dropdown-item"
-                        data-bs-toggle="modal"
-                        data-bs-target="#modalEmpleado"
-                      >
-                        Another action
-                      </button>
+                      <Link className="dropdown-item" to="/empleados/ver">
+                        Editar Empleados
+                      </Link>
                     </li>
                     <li>
-                      <button
-                        type="button"
-                        className="dropdown-item"
-                        data-bs-toggle="modal"
-                        data-bs-target="#modalComentarios"
-                      >
-                        Comentarios
-                      </button>
+                      <Link className="dropdown-item" to="/platos/ver">
+                        Editar Platos
+                      </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item" to="/verSolicitudes">
@@ -112,6 +102,11 @@ const header = () => {
                     <li>
                       <Link className="dropdown-item" to="/verComentarios">
                         Ver Comentarios
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/servicios/ver">
+                        Editar Servicios
                       </Link>
                     </li>
                   </ul>
