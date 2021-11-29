@@ -11,6 +11,8 @@ import component_registro from "./components/Login_Registro/component_registro";
 import Contactenos from "./views/Contactenos";
 import EditarHistoria from "./components/Administrador/Nosotros/EditarHistoria";
 import VerHistoria from "./components/Administrador/Nosotros/VerHistoria";
+import VerSolicitudes from "./components/Administrador/VerSolicitudes";
+import VerComentarios from "./components/Administrador/VerComentarios";
 function App() {
   return (
     <>
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route path="/nosotros/ver">
               <VerHistoria></VerHistoria>
+            </Route>
+            <Route path="/verSolicitudes">
+              <VerSolicitudes></VerSolicitudes>
+            </Route>
+            <Route path="/verComentarios">
+              <VerComentarios></VerComentarios>
             </Route>
           </Switch>
         </Layout>
