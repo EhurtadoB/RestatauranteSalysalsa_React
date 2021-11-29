@@ -62,10 +62,10 @@ class TableServicios extends React.Component {
                 <td>{this.props.servicio.descripcion}</td>
                 <td>{this.props.servicio.imagen}</td>
                 <td>
-                    <Link to={`/servicios/editar/${this.props.servicio.id}`} className="button is-info">Editar</Link>
+                    <Link to={`/servicios/editar/${this.props.servicio.id}`} className="button is-info btn btn-info">Editar</Link>
                 </td>
                 <td>
-                    <button onClick={this.eliminar} className="button is-danger">Eliminar</button>
+                    <button onClick={this.eliminar} className="btn btn-danger">Eliminar</button>
                 </td>
             </tr>
 

@@ -20,13 +20,16 @@ class AgregarPlato extends React.Component {
   }
   render() {
     return (
-      <div className="contenedor centro">
+      <div className="contenedor centro" style={{marginTop:"2rem", marginBottom:"8rem"}}>
+        <br />
+        <br />
+        <br />
         <div className="column is-one-third">
           <h1 className="is-size-3">Agregar plato</h1>
           <ToastContainer></ToastContainer>
           <form className="field" onSubmit={this.manejarEnvioDeFormulario}>
             <div className="form-group">
-              <label className="label" htmlFor="nombre">
+              <label className="label m-2" htmlFor="nombre">
                 Nombre:
               </label>
               <input
@@ -41,7 +44,7 @@ class AgregarPlato extends React.Component {
               />
             </div>
             <div className="form-group">
-              <label className="label" htmlFor="descripcion">
+              <label className="label m-2" htmlFor="descripcion">
                 Descripción:
               </label>
               <input
@@ -55,7 +58,7 @@ class AgregarPlato extends React.Component {
               />
             </div>
             <div className="form-group">
-              <label className="label" htmlFor="imagen">
+              <label className="label m-2" htmlFor="imagen">
                 Imagen:
               </label>
               <input
@@ -69,7 +72,7 @@ class AgregarPlato extends React.Component {
               />
             </div>
             <div className="form-group">
-              <label className="label" htmlFor="imagen">
+              <label className="label m-2" htmlFor="imagen">
                 Precio:
               </label>
               <input
@@ -83,9 +86,9 @@ class AgregarPlato extends React.Component {
               />
             </div>
             <div className="form-group">
-              <button className="button is-success mt-2">Guardar</button>
+              <button className="btn btn-success mt-2">Guardar</button>
               &nbsp;
-              <Link to="/platos/ver" className="button is-primary mt-2">
+              <Link to="/platos/ver" className="btn btn-primary mt-2">
                 Volver
               </Link>
             </div>

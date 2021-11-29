@@ -64,10 +64,10 @@ class TableEmpleados extends React.Component {
                 <td>{this.props.empleado.descripcion}</td>
                 <td>{this.props.empleado.imagen}</td>
                 <td>
-                    <Link to={`/empleados/editar/${this.props.empleado.id}`} className="button is-info">Editar</Link>
+                    <Link to={`/empleados/editar/${this.props.empleado.id}`} className="button is-info btn btn-info">Editar</Link>
                 </td>
                 <td>
-                    <button onClick={this.eliminar} className="button is-danger">Eliminar</button>
+                    <button onClick={this.eliminar} className="button is-danger btn btn-danger">Eliminar</button>
                 </td>
             </tr>
         );

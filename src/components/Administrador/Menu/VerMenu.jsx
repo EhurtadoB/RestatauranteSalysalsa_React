@@ -13,9 +13,7 @@ class VerMenu extends React.Component {
     };
   }
   async componentDidMount() {
-    const respuesta = await fetch(
-      `${Constantes.RUTA_API}/obtenerPlatos.php`
-    );
+    const respuesta = await fetch(`${Constantes.RUTA_API}/obtenerPlatos.php`);
     const platos = await respuesta.json();
     this.setState({
       platos: platos,
@@ -24,6 +22,9 @@ class VerMenu extends React.Component {
   render() {
     return (
       <div className="contenedor centro">
+        <br />
+        <br />
+        <br />
         <div>
           <div className="column">
             <h1 className="is-size-3">EL MENÚ</h1>
@@ -44,16 +45,13 @@ class VerMenu extends React.Component {
               <tbody>
                 {this.state.platos.map((plato) => {
                   return (
-                    <TablePlatos
-                      key={plato.id}
-                      plato={plato}
-                    ></TablePlatos>
+                    <TablePlatos key={plato.id} plato={plato}></TablePlatos>
                   );
                 })}
                 <div className="form-group">
                   <Link
                     to="/platos/agregar"
-                    className="button is-primary mt-2"
+                    className="btn btn-outline-success mt-2"
                   >
                     Agregar
                   </Link>

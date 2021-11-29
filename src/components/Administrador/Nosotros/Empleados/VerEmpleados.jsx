@@ -25,6 +25,9 @@ class VerEmpleados extends React.Component {
       <div className="contenedor centro">
         <div className="container">
           <div className="column">
+            <br />
+            <br />
+            <br />
             <h1 className="is-size-3">Empleados</h1>
             <ToastContainer></ToastContainer>
           </div>
@@ -48,10 +51,10 @@ class VerEmpleados extends React.Component {
                   );
                 })}
 
-                <div className="form-group">
+                <div className="form-group" style={{justifyContent:"center"}}>
                   <Link
                     to="/empleados/agregar"
-                    className="button is-primary mt-2"
+                    className="btn btn-outline-success"
                   >
                     Agregar
                   </Link>

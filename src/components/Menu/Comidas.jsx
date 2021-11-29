@@ -25,7 +25,7 @@ class Comidas extends Component {
   render() {
     return (
       <>
-        <div className="card" style={{ width: "100%", zIndex: 0}}>
+        <div className="card text-dark bg-light mb-3" style={{ width: "100%", zIndex: 0}}>
           <div className="row">
           {this.state.platos.map((plato) => {
               return (

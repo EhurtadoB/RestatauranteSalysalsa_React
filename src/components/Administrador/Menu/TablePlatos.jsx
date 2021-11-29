@@ -64,10 +64,10 @@ class TablePlatos extends React.Component {
                 <td>{this.props.plato.imagen}</td>
                 <td>{this.props.plato.precio}</td>
                 <td>
-                    <Link to={`/platos/editar/${this.props.plato.id}`} className="button is-info">Editar</Link>
+                    <Link to={`/platos/editar/${this.props.plato.id}`} className="button is-info btn btn-info">Editar</Link>
                 </td>
                 <td>
-                    <button onClick={this.eliminar} className="button is-danger">Eliminar</button>
+                    <button onClick={this.eliminar} className="btn btn-danger">Eliminar</button>
                 </td>
             </tr>
 

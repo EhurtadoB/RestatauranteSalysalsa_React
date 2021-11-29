@@ -22,7 +22,7 @@ class TableRestaurante extends React.Component {
         <td>
           <Link
             to={`/nosotros/editar/${this.props.restaurante.id}`}
-            className="button is-info"
+            className="button is-info btn btn-info"
           >
             Editar
           </Link>

@@ -23,6 +23,9 @@ class VerServicios extends React.Component {
   render() {
     return (
       <div className="contenedor centro">
+        <br />
+        <br />
+        <br />
         <div>
           <div className="column">
             <h1 className="is-size-3">Servicios</h1>
@@ -51,7 +54,7 @@ class VerServicios extends React.Component {
                 <div className="form-group">
                   <Link
                     to="/servicios/agregar"
-                    className="button is-primary mt-2"
+                    className="btn btn-outline-success mt-2"
                   >
                     Agregar
                   </Link>
