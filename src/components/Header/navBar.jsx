@@ -97,6 +97,11 @@ const header = () => {
                       </Link>
                     </li>
                     <li>
+                      <Link className="dropdown-item" to="/platos/ver">
+                        Editar Platos
+                      </Link>
+                    </li>
+                    <li>
                       <button
                         type="button"
                         className="dropdown-item"

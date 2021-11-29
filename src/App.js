@@ -17,6 +17,9 @@ import AgregarServicio from './components/Administrador/Servicios/AgregarServici
 import VerEmpleados from "./components/Administrador/Nosotros/Empleados/VerEmpleados";
 import AgregarEmpleado from "./components/Administrador/Nosotros/Empleados/AgregarEmpleado";
 import EditarEmpleado from "./components/Administrador/Nosotros/Empleados/EditarEmpleado";
+import VerMenu from "./components/Administrador/Menu/VerMenu";
+import AgregarPlato from "./components/Administrador/Menu/AgregarPlato";
+import EditarPlato from "./components/Administrador/Menu/EditarPlato";
 
 function App() {
   return (
@@ -56,6 +59,15 @@ function App() {
             </Route>
             <Route path="/empleados/editar/:id">
               <EditarEmpleado></EditarEmpleado>
+            </Route>
+            <Route path="/platos/ver">
+              <VerMenu></VerMenu>
+            </Route>
+            <Route path="/platos/agregar">
+              <AgregarPlato></AgregarPlato>
+            </Route>
+            <Route path="/platos/editar/:id">
+              <EditarPlato></EditarPlato>
             </Route>
           </Switch>
         </Layout>
